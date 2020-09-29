@@ -1,1 +1,93 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(253, 253, 253);
+  color: #000;
+  margin: 0;
+  hyphens: auto;
+  word-break: normal;
+}
+
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+/* desktop */
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 0;
+  }
+}
+
+p,
+a,
+li {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+
+button img {
+  width: 40px;
+  height: 40px;
+}
+
+button:hover img,
+button:focus img {
+  box-shadow: 2px 2px #0acce4;
+}
+
+@media screen and (min-width: 1024px) {
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .desktop-only {
+    display: none;
+  }
+}
+
+.screen-reader-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}

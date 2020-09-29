@@ -1,27 +1,30 @@
-# AngularResponsiveMenuApp
+# Angular Responsive Menu
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7, and contains a code example of a responsive and accessible menu with just CSS and TypeScript (without CSS libraries).
 
-## Development server
+## Requirements
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+You must have the following application installed:
 
-## Code scaffolding
+- [NodeJS 12+](https://nodejs.org/en/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Running the application
 
-## Build
+1. Clone this repository.
+2. Run `$ npm install` to install all the dependencies.
+3. Run `$ ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Troubleshooting
 
-## Running unit tests
+If you had any problem trying to run the application make sure that you have met the following requirements:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+Node version: v12.8.0
+Npm version: v6.14.5
+```
 
-## Running end-to-end tests
+## The project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Mobile and desktop version:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![Screenshot of the project with responsive menu on mobile and desktop devices.](src/assets/preview-project.png)

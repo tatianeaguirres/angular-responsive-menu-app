@@ -1,0 +1,19 @@
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hide-menu {
+  display: none;
+}
+
+.show-menu {
+  display: block;
+}

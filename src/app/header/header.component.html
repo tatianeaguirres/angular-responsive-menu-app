@@ -1,0 +1,13 @@
+<header>
+  <h1>Angular Menu</h1>
+  <button
+    id="open-menu"
+    class="mobile-only"
+    (click)="showMenu()"
+    aria-label="open menu"
+    [attr.aria-hidden]="isMobile ? false : true"
+  >
+    <img src="/assets/menu.svg" alt="">
+  </button>
+  <app-navbar id="navbar" class="desktop-only"></app-navbar>
+</header>
